@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  color: #333;
+  background-color: #f5f7fa;
+}
+
+.header {
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #2f80ed, #56ccf2);
+}
+
+.header h1 {
+  margin: 0 0 16px;
+  font-size: 40px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.card p {
+  line-height: 1.8;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 14px 24px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #1c63c7;
+  transform: translateY(-2px);
+}
+
+.message {
+  margin-top: 24px;
+  font-weight: bold;
+  color: #2f80ed;
+}
+
+.footer {
+  padding: 24px 20px;
+  text-align: center;
+  color: #777;
+}
